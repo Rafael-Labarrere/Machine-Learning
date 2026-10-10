@@ -4,7 +4,7 @@ This branch contains a Jupyter Notebook with introductory exercises in **Natural
 
 ## Topics covered
 
-- **Regular expressions (\`re\`)** — find patterns, split text, and extract words, numbers, hashtags, and mentions.
+- **Regular expressions (`re`)** — find patterns, split text, and extract words, numbers, hashtags, and mentions.
 - **Tokenization with NLTK** — split text into sentences and tokens, including social-media text.
 - **Text normalization** — work with stop words and lemmatization.
 - **Gensim** — build a token dictionary, convert documents into a bag-of-words representation, and calculate TF-IDF weights.
@@ -19,7 +19,7 @@ This branch contains a Jupyter Notebook with introductory exercises in **Natural
 - pandas for tabular data handling
 - Matplotlib for plots
 
-Python's built-in \`re\` module is used for regular expressions and does not need to be installed separately.
+Python's built-in `re` module is used for regular expressions and does not need to be installed separately.
 
 ## Set up the environment
 
@@ -31,7 +31,7 @@ cd Machine-Learning
 git switch Natural-Language-Processing
 ~~~
 
-If you already have the repository locally, open its folder and run \`git switch Natural-Language-Processing\`.
+If you already have the repository locally, open its folder and run `git switch Natural-Language-Processing`.
 
 ### 2. Create and activate a virtual environment
 

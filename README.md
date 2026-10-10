@@ -23,7 +23,7 @@ Machine-Learning/
 ├── artifacts/                         # cache local dos embeddings BERT (gerado)
 ├── models/                            # modelo e métricas (gerados)
 ├── trabalho_final_igor_rafael_v02.ipynb
-├── trabalho_final_igor_rafael_v03.ipynb # versão anterior
+├── trabalho_final_igor_rafael_v01.ipynb # versão anterior
 ├── requirements.txt
 ├── .gitignore
 └── README.md

@@ -94,9 +94,37 @@ The notebook includes an **Open in Colab** badge. Open the notebook in Colab and
 
 The notebook downloads NLTK resources in its setup cell. Colab sessions are temporary, so package installations and downloaded files may need to be repeated in a new session.
 
-## Note about the sample text file
+## Input text files
 
-One notebook exercise opens a local file named **holy_grail.txt**. That file is currently included in this branch. To run an alternative exercise, place a different text in the file named **holy_grail.txt** in the same directory as the notebook. Otherwise, skip the cell that reads this file; the other exercises can be run independently where their required resources are available.
+The notebook uses three plain-text files stored in the `data/` folder at the repository root:
+
+```text
+Machine-Learning/
+├── data/
+│   ├── holy_grail.txt
+│   ├── debugging.txt
+│   └── articles.txt
+├── Natural_Language_Processing.ipynb
+└── README.md
+```
+
+Create the `data/` folder and add all three files before running the cells that read them. The filenames are case-sensitive on some systems, so keep them exactly as shown. The notebook expects the paths `data/holy_grail.txt`, `data/debugging.txt`, and `data/articles.txt`.
+
+- **`holy_grail.txt`** — text for the line-length histogram exercise. The repository's suggested sample text is fine; you can replace it with other text you have permission to use.
+- **`debugging.txt`** — an English article about software debugging, used to count the most frequent tokens with a Bag of Words approach.
+- **`articles.txt`** — a small collection of documents for the Gensim dictionary exercise. Put **one document per line**. The example below includes the word `transport`, which the notebook looks up in the dictionary.
+
+Example content for `articles.txt`:
+
+```text
+Public transport connects neighborhoods and helps people travel across a city.
+Software debugging helps developers find bugs and fix errors in computer programs.
+Electric buses can reduce pollution and improve urban transport systems.
+Machine learning uses data to identify patterns and make predictions.
+Reliable transport networks support commuters, businesses, and local communities.
+```
+
+The text in these files is sample input, not a required dataset. You can replace it with other suitable text; the results will change accordingly.
 
 ## Learning objectives
 

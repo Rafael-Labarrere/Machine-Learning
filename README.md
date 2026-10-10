@@ -96,7 +96,7 @@ The notebook downloads NLTK resources in its setup cell. Colab sessions are temp
 
 ## Note about the sample text file
 
-One notebook exercise opens a local file named **holy_grail.txt**. That file is not currently included in this branch. To run that particular exercise, place a compatible text file named **holy_grail.txt** in the same directory as the notebook. Otherwise, skip the cell that reads this file; the other exercises can be run independently where their required resources are available.
+One notebook exercise opens a local file named **holy_grail.txt**. That file is currently included in this branch. To run an alternative exercise, place a different text in the file named **holy_grail.txt** in the same directory as the notebook. Otherwise, skip the cell that reads this file; the other exercises can be run independently where their required resources are available.
 
 ## Learning objectives
 

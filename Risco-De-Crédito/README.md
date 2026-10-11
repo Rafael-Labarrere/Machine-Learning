@@ -1,0 +1,52 @@
+# Machine Learning — Risco de Crédito
+
+Este repositório reúne estudos e exercícios de aprendizado de máquina, com foco em pré-processamento de dados para análise de risco de crédito.
+
+## Notebook
+
+**`1_1_Inconsistentes_e_Faltantes.ipynb` — Pré-processamento de dados**
+
+O notebook aborda:
+- Exploração inicial dos dados;
+- Identificação e tratamento de valores inconsistentes;
+- Tratamento de valores ausentes;
+- Análise da distribuição dos dados.
+
+## Estrutura do projeto
+
+```text
+Machine-Learning/
+├── data/
+│   └── credit_data.csv
+├── 1_1_Inconsistentes_e_Faltantes.ipynb
+├── README.md
+└── requirements.txt
+```
+
+O arquivo CSV não está incluído no repositório. Após baixá-lo, coloque-o em `data/credit_data.csv`.
+
+## Como executar
+
+1. Instale o Python 3.10 ou superior.
+2. Clone o repositório e entre na pasta do projeto.
+3. Instale as dependências:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+4. Coloque `credit_data.csv` dentro da pasta `data/`.
+5. Abra o notebook no Jupyter Notebook, JupyterLab ou VS Code.
+6. Execute as células em ordem, usando a raiz do repositório como diretório de trabalho.
+
+### Google Colab
+
+O notebook não precisa mais montar o Google Drive nem utilizar um caminho pessoal. Para executá-lo no Colab, disponibilize o repositório e o CSV no ambiente, mantendo o arquivo em `data/credit_data.csv` relativo à raiz do projeto.
+
+## Dependências
+
+As bibliotecas necessárias estão listadas em `requirements.txt`.
+
+## Dados e licenciamento
+
+Consulte a fonte original do dataset para verificar sua licença e as condições de uso antes de redistribuir o arquivo CSV. Este repositório não declara uma licença para o conjunto de dados.
